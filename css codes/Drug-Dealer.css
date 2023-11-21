@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@keyframes slideIn {
+
+    0% {
+      opacity: 0%;
+        top: 0;
+    }
+
+    100% {
+      opacity: 100%;
+        top: 100px;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #242424;
+}
+
+
+.card {
+    position: relative;
+    top: 0px;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #040b0f;
+    border-radius: 8px;
+    z-index: 1;
+    animation: slideIn 2s forwards;
+   }
+   
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 9px;
+    
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+    width: 15px;
+    height: 15px;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+    width: 15px;
+    height: 15px;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+    width: 15px;
+    height: 15px;
+   }
+   
+   .h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+   }
+
+   .card-title {
+    color: white;
+   }
+
+   #dif-title {
+    color: #48ff00;
+   }
+
+   .card-sub-title {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+   }
+
+   #dif-sub-title {
+    color: rgb(0, 255, 0);
+   }
+
+
+  
+#typewriter{
+  
+      &:after{
+        content: "|";
+        animation: blink 500ms linear infinite alternate;
+      }
+  }
+  
+  @-webkit-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  
+  @-moz-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  
+  @keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+
+  .btn-HP {
+    position: relative;
+    left: 300px;
+    font-size: 2rem;
+  }
+
+  .cr-text {
+    text-decoration: underline;
+    font-size: 1rem;
+    text-align: center;
+    color: #48ff00;
+    position: absolute;
+    top: 800px;
+    left: 0px;
+  }
+
+.The_App #TID_img {
+  position: relative;
+  left: 460px;
+  top: 30px;
+  width: 70px;
+}
+
+.exit-sign {
+  color: rgb(0, 0, 0);
+  font-weight: 1000;
+  position: relative;
+  text-decoration: none;
+  position: absolute;
+  bottom: 769px;
+  left: 22px;
+}
+
+
+
+
+.white-color {
+  color: #48ff00;
+}
+
+
+
+/*---------------------------------------------------------*/
+
+.chatbox {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.chatlogs {
+    flex-grow: 1;
+    padding: 10px;
+    color: #48ff00;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 560px;
+    width: 98%;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #fff; 
+    border-radius: 6px; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #71e63b; 
+}
+
+.chat {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+.bot {
+    
+    align-self: flex-start;
+}
+
+.user-label {
+    color: #fff;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 97%;
+    position: absolute;
+    outline: none;
+    top: 720px;
+    left: 2px;
+    background-color: rgba(0, 202, 77, 0);
+    border-color: #48ff00;
+    color: #48ff00;
+}
+
+.card2 {
+  position: absolute;
+  
+  left: 1540px;
+  width: 320px;
+  height: 500px;
+  background-color: #040b0f;
+  border-radius: 8px;
+  z-index: 1;
+  
+  animation: slideIn 2s forwards;
+ }
+
+ .card-title2 {
+  font-size: 1.2rem;
+  text-decoration: underline #1e5c05 3px;
+ }

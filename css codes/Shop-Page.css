@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@keyframes slideIn {
+
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 100px;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /*outline: dashed red 1px;*/
+}
+
+body {
+    background-color: #242424;
+}
+
+
+.card {
+    position: relative;
+    top: 0px;
+    width: 1300px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #040b0f;
+    border-radius: 8px;
+    z-index: 1;
+    animation: slideIn 1s forwards;
+   }
+   
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 9px;
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+    width: 15px;
+    height: 15px;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+    width: 15px;
+    height: 15px;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+    width: 15px;
+    height: 15px;
+   }
+   
+   .h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+   }
+
+   .card-title {
+    color: white;
+   }
+
+   #dif-title {
+    color: #48ff00;
+   }
+
+   .card-sub-title {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+   }
+
+   #dif-sub-title {
+    color: rgb(0, 255, 0);
+   }
+
+.botik-console-text {
+    position: relative;
+    top: 50px;
+    right: 100px;
+    padding: 10px;
+    font-size: 1em;
+    color: rgb(8, 153, 8);
+    letter-spacing: 1px;
+    height: 10px;
+}
+
+.exit-sign {
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    position: relative;
+    text-decoration: none;
+    position: relative;
+    bottom: 101px;
+    left: 22px;
+}
+
+.inputtitle {
+    color: #00ca4e;
+    
+}
+
+.inputpagetext { 
+    color: #00ca4e;
+    font-weight: 1000;
+    font-style: bold;
+}
+
+.shop-title {
+    color: white;
+    position: absolute;
+    top: 140px;
+}
+
+
+
+.yuri-title {
+    font-size: 1.6em;
+    position: relative;
+    top: 10px;
+}
+
+.yuriimg {
+    position: relative;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 95px;
+    left: 75px;
+    top: 20px;
+}
+
+.yuri-sub-title {
+    font-size: 1rem;
+    color: #00ca4e;
+    position: relative;
+    top: 20px;
+}
+
+.yuri-talk {
+    font-size: 1.3rem;
+    position: relative;
+    top: 30px;
+}
+
+.drug-type {
+    font-size: 1rem;
+    position: relative;
+    top: 40px;
+    color: #00ca4e;
+}
+
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: transparent;
+    background-size: 400%;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.23, 1, 0.320, 1);
+    position: relative;
+    left: 47px;
+    top: 60px;
+  }
+  
+  .button:hover::before {
+    transform: scaleY(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgb(132, 233, 132) 10.8%,
+      rgb(2, 186, 30) 94.3%
+    );
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button:active {
+    scale: 0.9;
+  }
+
+
+  .card2,
+  .card3 {
+      width: 250px;
+      height: 400px;
+      margin: 20px; /* Adjust the margin as needed to create space */
+      background-color: #F8FBFE;
+      border-radius: 8px;
+      z-index: 1;
+      position: absolute;
+      bottom: 120px; /* Set the common bottom value */
+  }
+  
+  .card2 {
+      right: calc(50% + 20px); /* Adjust the right value for card2 */
+  }
+  
+  .card3 {
+      left: calc(50% + 20px); /* Adjust the left value for card3 */
+  }
+  

@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@keyframes slideIn {
+
+    0% {
+      opacity: 0%;
+        top: 0;
+    }
+
+    100% {
+      opacity: 100%;
+        top: 100px;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #242424;
+}
+
+
+.card {
+    position: relative;
+    top: 0px;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #040b0f;
+    border-radius: 8px;
+    z-index: 1;
+    animation: slideIn 2s forwards;
+   }
+   
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 9px;
+    
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+    width: 15px;
+    height: 15px;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+    width: 15px;
+    height: 15px;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+    width: 15px;
+    height: 15px;
+   }
+   
+   .h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+   }
+
+   .card-title {
+    color: white;
+   }
+
+   #dif-title {
+    color: #48ff00;
+   }
+
+   .card-sub-title {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+   }
+
+   #dif-sub-title {
+    color: rgb(0, 255, 0);
+   }
+
+.botik-console-text {
+    position: relative;
+    top: 50px;
+    right: 100px;
+    padding: 10px;
+    font-size: 1em;
+    color: rgb(8, 153, 8);
+    letter-spacing: 1px;
+    height: 10px;
+}
+  
+#typewriter{
+  
+      &:after{
+        content: "|";
+        animation: blink 500ms linear infinite alternate;
+      }
+  }
+  
+  @-webkit-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  
+  @-moz-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+  
+  @keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+
+  .btn-HP {
+    position: relative;
+    left: 300px;
+    font-size: 2rem;
+  }
+
+  .cr-text {
+    text-decoration: underline;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+.The_App #TID_img {
+  position: relative;
+  left: 460px;
+  top: 30px;
+  width: 70px;
+}
+
+.Faceid_img {
+    position: relative;
+    top: 20px;
+    left: 440px;
+    width: 100px;
+}
+
+.inp {
+    width: 350px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #48ff0042;
+    font-weight: 600;
+    color: white;
+}
+
+.Username-inp {
+    position: relative;
+    left: 210px;
+    top: 60px;
+    
+}
+
+.PassWord-inp {
+    position: relative;
+    left: -145px;
+    top: 120px;
+}
+
+.Pet-inp {
+  position: relative;
+  top: 145px;
+  left: 327px;
+}
+
+
+.inp::placeholder {
+    color: white;
+}
+
+.s-g {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+
+.s-g-subtitle {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 230px;
+  letter-spacing: 4px;
+}
+
+.exit-sign {
+  color: rgb(0, 0, 0);
+  font-weight: 1000;
+  position: relative;
+  text-decoration: none;
+  position: relative;
+  bottom: 183px;
+  left: 22px;
+}
+
+#remember-sub-title {
+  color: white;
+}
+
+
+input[type="checkbox"]{
+  appearance: none;
+  position: relative;
+  top: 185px;
+  left: -29px;
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: #48ff00;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+label {
+  color: #48ff00;
+  position: relative;
+  top: 185px;
+  left: -29px;
+}
+
+input[type="checkbox"]::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  color: #ffffff;
+  display: none;
+  
+}
+
+input[type="checkbox"]:hover {
+  background-color: #ffffff;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #5bcd3e;
+}
+
+input[type="checkbox"]:checked::after {
+  display: block;
+}
+
+.Login-btn {
+  color: #ffffff;
+  font-size: 1.5rem;
+  position: relative;
+  top: 260px;
+  left: -35px;
+}
+
+.white-color {
+  color: #48ff00;
+}
+
+
+
